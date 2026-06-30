@@ -108,7 +108,7 @@
         const scrollY = window.scrollY;
         const heroHeight = hero.offsetHeight;
         if (scrollY < heroHeight) {
-          heroImage.style.transform = `scale(1.05) translateY(${scrollY * 0.25}px)`;
+          heroImage.style.transform = `scale(1.04) translateY(${scrollY * 0.15}px)`;
         }
       },
       { passive: true }
